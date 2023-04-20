@@ -207,14 +207,14 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-
-   let i = 0
+   var i = 0;
    do {
-      num = num + 5
-      i++
-   } while (i = 8)
-
+      num += 5;
+      i++;
+   } while (i < 8);
+   return num;
 }
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
